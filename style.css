@@ -39,6 +39,52 @@ button {
 
 }
 
+form {
+  display: flex;
+  gap: 32px;
+  padding: 0 48px;
+}
+
+.habits {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.habit {
+  width: 40px;
+  height: 64px;
+
+  font-size: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+}
+
+.day {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.day div {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  color: #A1A1AA;
+}
+
 input {
   appearance: none;
   -webkit-appearance: none;
